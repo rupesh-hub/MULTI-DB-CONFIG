@@ -1,0 +1,18 @@
+postgres:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/product
+    username: postgres
+    password: postgres
+
+mysql:
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/user
+    username: root
+    password: root
+
+spring:
+  jpa:
+    show-sql: true
+
+server:
+  port: 8181
